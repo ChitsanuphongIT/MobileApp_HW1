@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
         int num1, num2;
         int sum, max, min;
+        
         // Validation Inputs
-
         if (inputNum1.getText().toString().equals("")) {
             Toast.makeText(this, "Number1 is required", Toast.LENGTH_SHORT).show();
             return;
